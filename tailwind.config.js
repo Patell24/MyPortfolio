@@ -2,6 +2,19 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      screens: {
+        mobile: "375px",
+        // => @media (min-width: 375px) { ... }
+        
+        tablet: "640px",
+        // => @media (min-width: 640px) { ... }
+
+        laptop: "1024px",
+        // => @media (min-width: 1024px) { ... }
+
+        desktop: "1280px",
+        // => @media (min-width: 1280px) { ... }
+      },
       animation: {
         "shape-change-shake": "shapeChange 10s infinite, shake 0.5s infinite",
       },

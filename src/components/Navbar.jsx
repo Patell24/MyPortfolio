@@ -33,11 +33,12 @@ function Navbar() {
       <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-slate-200">
         <div className="flex justify-between items-center h-16">
           <div className="flex space-x-2">
-            <img
-              src={logo}
-              className="h-12 w-12 rounded-full object-contain mix-blend-multiply"
-              alt="PatellAbhishekk"
-            />
+              <img
+                src={logo}
+                className="h-12 w-12 rounded-full object-contain mix-blend-multiply"
+                alt="PatellAbhishekk"
+                onClick={() => setMenu(!menu)}
+              />
             <h1 className="font-semibold text-xl cursor-pointer">
               Abhishe<span className="text-blue-500 text-2xl">k</span>
               <p className="text-sm">Web Developer</p>

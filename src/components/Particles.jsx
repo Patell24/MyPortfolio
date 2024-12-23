@@ -71,7 +71,7 @@ const ParticleDesign = () => {
                   default: "bounce",
                 },
                 random: false,
-                speed: 7,
+                speed: 2,
                 straight: false,
               },
               number: {
@@ -79,7 +79,7 @@ const ParticleDesign = () => {
                   enable: true,
                   area: 800,
                 },
-                value: 80,
+                value: 50,
               },
               opacity: {
                 value: 0.5,
@@ -88,7 +88,7 @@ const ParticleDesign = () => {
                 type: "star",
               },
               size: {
-                value: { min: 1, max: 6 },
+                value: { min: 1, max: 5 },
               },
             },
             detectRetina: true,
